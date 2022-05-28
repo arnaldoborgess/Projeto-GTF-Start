@@ -1,0 +1,15 @@
+/workspaces/Projeto-GTF-Start/Arnald.Series/bin/Debug/net6.0/Arnald.Series
+/workspaces/Projeto-GTF-Start/Arnald.Series/bin/Debug/net6.0/Arnald.Series.deps.json
+/workspaces/Projeto-GTF-Start/Arnald.Series/bin/Debug/net6.0/Arnald.Series.runtimeconfig.json
+/workspaces/Projeto-GTF-Start/Arnald.Series/bin/Debug/net6.0/Arnald.Series.dll
+/workspaces/Projeto-GTF-Start/Arnald.Series/bin/Debug/net6.0/Arnald.Series.pdb
+/workspaces/Projeto-GTF-Start/Arnald.Series/obj/Debug/net6.0/Arnald.Series.csproj.AssemblyReference.cache
+/workspaces/Projeto-GTF-Start/Arnald.Series/obj/Debug/net6.0/Arnald.Series.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Projeto-GTF-Start/Arnald.Series/obj/Debug/net6.0/Arnald.Series.AssemblyInfoInputs.cache
+/workspaces/Projeto-GTF-Start/Arnald.Series/obj/Debug/net6.0/Arnald.Series.AssemblyInfo.cs
+/workspaces/Projeto-GTF-Start/Arnald.Series/obj/Debug/net6.0/Arnald.Series.csproj.CoreCompileInputs.cache
+/workspaces/Projeto-GTF-Start/Arnald.Series/obj/Debug/net6.0/Arnald.Series.dll
+/workspaces/Projeto-GTF-Start/Arnald.Series/obj/Debug/net6.0/refint/Arnald.Series.dll
+/workspaces/Projeto-GTF-Start/Arnald.Series/obj/Debug/net6.0/Arnald.Series.pdb
+/workspaces/Projeto-GTF-Start/Arnald.Series/obj/Debug/net6.0/Arnald.Series.genruntimeconfig.cache
+/workspaces/Projeto-GTF-Start/Arnald.Series/obj/Debug/net6.0/ref/Arnald.Series.dll
