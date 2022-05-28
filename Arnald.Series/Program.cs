@@ -22,10 +22,10 @@ internal class Program
                     AtualizarSerie();
                     break;
                 case "4":
-                    //ExcluirSeries();
+                    ExcluirSerie();
                     break;
                 case "5":
-                    //isualizarSeries();
+                    VisualizarSerie();
                     break;
                 case "C":
                     Console.Clear();
@@ -59,6 +59,24 @@ internal class Program
                 
 				Console.WriteLine("#ID {0}: - {1} {2}", serie.retornaId(), serie.retornaTitulo(), (excluido ? "*Excluído*" : ""));
 			}
+		}
+
+        private static void ExcluirSerie()
+		{
+			Console.Write("Digite o id da série: ");
+			int indiceSerie = int.Parse(Console.ReadLine());
+
+			repositorio.Exclui(indiceSerie);
+		}
+
+        private static void VisualizarSerie()
+		{
+			Console.Write("Digite o id da série: ");
+			int indiceSerie = int.Parse(Console.ReadLine());
+
+			var serie = repositorio.RetornaPorId(indiceSerie);
+
+			Console.WriteLine(serie);
 		}
 
         private static void InserirSerie()
