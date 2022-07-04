@@ -4,6 +4,8 @@ internal class NewBaseType
 {
     static SerieRepositorio repositorio = new SerieRepositorio();
 
+    
+
     private static void AtualizarSeries()
     {
         Write("Digite o id da série: ");
@@ -33,7 +35,7 @@ internal class NewBaseType
                                     ano: entradaAno,
                                     descricao: entradaDescricao);
 
-        repositorio.Atualiza(indiceSeries, atualizaSeries);
+        repositorio.Atualiza(indiceSeries, atualizaSeries);        
     }
 
     private static void ExcluirSeries()
@@ -94,7 +96,14 @@ internal class NewBaseType
         }
     }
     static void Main(string[] args)
+
     {
+        
+
+        Tipo();
+
+
+
         string opcaoUsuario = ObterOpcaoUsuario();
 
         while (opcaoUsuario.ToUpper() != "X")
@@ -131,6 +140,14 @@ internal class NewBaseType
         ReadLine();
     }
 
+    private static void Tipo(){
+        WriteLine();
+        WriteLine("DIO Séries a seu dispor!!!");
+        WriteLine("Informe a opção desejada:");
+
+        WriteLine ("1- Filme");
+        WriteLine ("2- Série");
+    }
     private static string ObterOpcaoUsuario()
     {
         WriteLine();

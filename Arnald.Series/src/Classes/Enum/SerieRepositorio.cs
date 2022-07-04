@@ -2,12 +2,6 @@ using System;
 using System.Collections.Generic;
 using Arnald.Series.Interfaces;
 
-namespace Arnald.Filmes.src.Classes
-{
-    public class SerieRepositorio<T>
-    {
-    }
-}
 
 namespace Arnald.Series
 {
