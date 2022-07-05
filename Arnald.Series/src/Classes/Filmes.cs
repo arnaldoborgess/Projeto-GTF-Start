@@ -4,9 +4,7 @@ namespace Arnald.Series.src.Classes
     {
         public Filmes(int id, Genero genero, string titulo, string descricao, int ano) : base(id, genero, titulo, descricao, ano)
         {
-			
         }
-        
     }
 
 }

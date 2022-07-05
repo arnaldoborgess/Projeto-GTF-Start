@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using Arnald.Series.Interfaces;
 
-namespace Arnald.Filmes.src.Classes
+namespace Arnald.Series.src.Classes.Enum
 {
     public class SerieRepositorio<T>
     {
